@@ -1,3 +1,7 @@
-body { 
-  background-color: rgb(150,50,50)); 
+
+.jumbotron {
+  background-size: cover;
+	color: rgb(255,250,240);
+  border: solid rgb(255,250,240) 10px;
+  
 }
