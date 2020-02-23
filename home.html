@@ -13,10 +13,11 @@
 
 <body style="font-family:monospace">
 
-	<div class="jumbotron text-center " style="background-color: rgb(150,50,50); padding-bottom: 10px;">
-	  <h1 style="font-size: 40px">Proyecto 0</h1>
-	  <p style="font-size: 15px">Pagina desarrollada para la materia desarrollo web</p>
-	</div>
+  <div class="jumbotron text-center sticky-top"
+  style="background-color: rgb(150,50,50); padding-bottom: 10px;color: rgb(255,250,240);border: solid rgb(255,250,240) 10px">
+    <a href="home.html" style="color: rgb(255,250,240); text-decoration: none"><h1 style="font-size: 40px">Proyecto 0</h1></a>
+    <p style="font-size: 15px">Pagina desarrollada para la materia desarrollo web</p>
+  </div>
 
 <nav  class="navbar navbar-expand-md navbar-light sticky-top">
 
@@ -61,18 +62,18 @@
         <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Interconectivdad Redes</a>
 				<div class="dropdown-menu">
-				<a class="dropdown-item" href="https://docs.google.com/presentation/d/1N7D_ytwAY-UgiOltg2Kv_2k8gtaCttKjc_OgEXHHa-8"> Puertos</a>
-				<a class="dropdown-item" href="https://drive.google.com/file/d/17DRKkbnJbJq7wYOBCqt6gApdsZNMSY3n/view?ths=true">STP</a>
-				<a class="dropdown-item" href="https://drive.google.com/file/d/19ii7xI3dbarfq-ceNOMWjSRP8GKbtQgG/view?ths=true">Analogia</a>
+				<a class="dropdown-item" href="https://docs.google.com/presentation/d/1N7D_ytwAY-UgiOltg2Kv_2k8gtaCttKjc_OgEXHHa-8/edit?usp=sharing"><img src="redes/puertos.svg" style="height:30px;"> Puertos</a>
+				<a class="dropdown-item" href="https://drive.google.com/file/d/17DRKkbnJbJq7wYOBCqt6gApdsZNMSY3n/view?ths=true"><img src="redes/STP.svg" style="height:30px;"> STP</a>
+				<a class="dropdown-item" href="https://drive.google.com/file/d/19ii7xI3dbarfq-ceNOMWjSRP8GKbtQgG/view?ths=true"><img src="redes/analogia.svg" style="height:30px;"> Analogia</a>
 			  </div>
 			  </li>
 
         <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Taller de BD</a>
 				<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Link 1</a>
-				<a class="dropdown-item" href="#">Link 2</a>
-				<a class="dropdown-item" href="#">Link 3</a>
+				<a class="dropdown-item" href="https://drive.google.com/file/d/136vjDga3Z3xLf80jH21UnXmU-ZMTfX8n/view?ths=true"><img src="taller/p1.svg" style="height:30px;"> Practica 1</a>
+				<a class="dropdown-item" href="https://docs.google.com/presentation/d/122xb6-A8iKvZhhrL31XbESQsNqahm3fJ-59t1bUx-fY/edit?usp=sharing"><img src="taller/p2.svg" style="height:30px;"> Practica 2</a>
+				<a class="dropdown-item" href="taller/casopractico.svg"><img src="taller/casopractico.svg" style="height:30px;"> Caso de uso</a>
 			  </div>
 			  </li>
 
@@ -94,16 +95,21 @@
 </nav>
 
 <div class="row text-center"style="padding-top: 20px">
+
     <div class="col-md-6">
       <p class="negro">Animación</p>
-       <div class="col-md-12 fondocontenido">
-         <a href="animacion.html"><img src="animacion/dibujo1.svg" style="height:300px;" alt=""></a>
-         <a href="animacion.html"><img src="animacion/dibujo2.svg" style="height:300px;" alt=""></a>
-         <a href="animacion.html"><img src="animacion/dibujo3.svg" style="height:300px;" alt=""></a>
-         <a href="animacion.html"><img src="animacion/dibujo4.svg" style="height:300px;" alt=""></a>
-
+       <div class="col-md-12 fondocontenido ">
+         <div class=" hovereffect" >
+         <a class="info"><img src="animacion/dibujo1.svg" style="height:200px;" alt=""></a>
+         <a class="info"><img src="animacion/dibujo2.svg" style="height:200px;" alt=""></a>
+         <a class="info"><img src="animacion/dibujo3.svg" style="height:200px;" alt=""></a>
+         <a class="info"><img src="animacion/dibujo4.svg" style="height:200px;" alt=""></a>
+            <div class=" text-center overlay">
+            <a class="info " href="animacion.html">Animación</a>
+            </div>
        </div>
-    </div>
+     </div>
+  </div>
 
     <div class="col-md-6">
       <p class="negro">Dev Web</p>
@@ -112,23 +118,42 @@
        </div>
     </div>
 
+
     <div class="col-md-6">
       <p class="negro">Redes</p>
-       <div class="col-md-12 fondocontenido">
-         Puertos <a href="https://docs.google.com/presentation/d/1N7D_ytwAY-UgiOltg2Kv_2k8gtaCttKjc_OgEXHHa-8"><img src="animacion/dibujo2.svg" style="height:300px;" alt=""></a>
-        Stp <a href="https://drive.google.com/file/d/17DRKkbnJbJq7wYOBCqt6gApdsZNMSY3n/view?ths=true"><img src="animacion/dibujo3.svg" style="height:300px;" alt=""></a>
-         Analogia <a href="https://drive.google.com/file/d/19ii7xI3dbarfq-ceNOMWjSRP8GKbtQgG/view?ths=true"><img src="animacion/dibujo2.svg" style="height:300px;" alt=""></a>
-
-       </div>
+       <div class="col-md-12 fondocontenido ">
+         <div class=" hovereffect" >
+           <a class="info" ><img src="redes/puertos.svg" style="height:300px; width: 200px;" alt=""></a>
+           <a class="info" ><img src="redes/STP.svg" style="height:300px;" alt=""></a>
+           <a class="info" ><img src="redes/analogia.svg" style="height:300px;" alt=""></a>
+              <div class=" text-center overlay">
+                <a class="info " href="redes.html">Redes</a>
+              </div>
+          </div>
+        </div>
     </div>
+
 
     <div class="col-md-6">
       <p class="negro">Taller BD</p>
-       <div class="col-md-12 fondocontenido">
-         <a href=""><img src="animacion/dibujo3.svg" style="height:300px;" alt=""></a>
+       <div class="col-md-12 fondocontenido ">
+         <div class=" hovereffect">
+           <a class="info"><img src="taller/casopractico.svg" style="height:300px; width: 200px;" alt=""></a>
+           <a class="info"><img  src="taller/p1.svg" style="height:300px;" alt=""></a>
+           <a class="info"><img  src="taller/p2.svg" style="height:300px; width: 200px;" alt=""></a>
+             <div class=" text-center overlay">
+               <a class="info "  href="tallerbd.html">Taller BD</a>
+             </div>
+         </div>
+
        </div>
      </div>
+
+
   </div>
+
+
+
 
 <footer class="container-fluid foot text-center" >
   <p style="padding-top: 20px;">Creado por Manuel Fierro <a href="home.html" style="color: rgba(0, 0, 0, 0.9)">Inicio</a></p>
@@ -157,9 +182,8 @@
                         window.location.href = "Redes.html";
                         break;
                     case "Taller BD":
-                        window.location.href = "Taller BD.html";
+                        window.location.href = "tallerbd.html";
                         break;
-
                 }
 
                 window.location = url;
