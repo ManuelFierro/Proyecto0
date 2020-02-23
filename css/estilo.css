@@ -1,18 +1,25 @@
+body{
+  background-color: rgb(255,250,240)!important;
+}
 
 .jumbotron {
   background-size: cover;
-	color: rgb(255,250,240);
-  border: solid rgb(255,250,240) 10px;
+	color: rgb(255,250,240)!important;
+  border: solid rgb(255,250,240) 10px!important;
   background-color: rgb(150,50,50);
 
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .navbar-light{
   background-color: #e9ecef;
   border: solid rgba(0, 0, 0, 0.15) 2px;
   border-radius: 0.25rem;
-  
+
 }
-.navbar{
+.navbar {
 font-size: 15px;
 }
 
@@ -24,3 +31,51 @@ font-size: 15px;
   background-color: #e9ecef !important;
   border: 2px solid rgba(0, 0, 0, 0.15)!important;
 }
+
+.navbar li:hover{
+    background-color: #f8f9fa!important;
+}
+
+.btn{
+  background-color:  #f8f9fa;
+}
+
+button:active,.form-inline input:focus,.form-inline textarea:focus {
+outline-color : rgba(0, 0, 0, 0.9) !important;
+border: 1px solid rgba(0, 0, 0, 0.9) !important;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) !important;
+-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) !important;
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) !important;
+}
+
+.foot{
+  background-color: #e9ecef ;
+}
+.foot a{
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+.foot a:hover{
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bolder;
+}
+.fondocontenido {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #555555;
+  }
+
+  .margen {
+    margin-right: 20px;
+  }
+
+  .container{
+  padding-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .enlace :hover,:link,:focus,:visited{
+  color:rgba(0, 0, 0, 0.9)!important;
+  font-weight: bolder;
+  text-decoration: none!important;
+  }
