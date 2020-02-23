@@ -1,0 +1,19 @@
+.error, .warning, .success{
+  font-family: sans-sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  color: black;
+}
+.success{
+  background-color: green;
+}
+.warning{
+  background-color: orange;
+}
+.error{
+  background-color: red;
+
+}

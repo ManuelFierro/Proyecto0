@@ -1,0 +1,26 @@
+
+.jumbotron {
+  background-size: cover;
+	color: rgb(255,250,240);
+  border: solid rgb(255,250,240) 10px;
+  background-color: rgb(150,50,50);
+
+}
+.navbar-light{
+  background-color: #e9ecef;
+  border: solid rgba(0, 0, 0, 0.15) 2px;
+  border-radius: 0.25rem;
+  
+}
+.navbar{
+font-size: 15px;
+}
+
+.navbar-brand img {
+  height: 30px;
+  margin-right:2px;
+}
+.dropdown-menu{
+  background-color: #e9ecef !important;
+  border: 2px solid rgba(0, 0, 0, 0.15)!important;
+}
