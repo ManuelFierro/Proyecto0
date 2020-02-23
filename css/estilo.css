@@ -74,7 +74,7 @@ box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) !important;
   margin-bottom: 0px;
   }
 
-  .enlace :hover,:link,:focus,:visited{
+  .enlace :hover,:focus,:visited{
   color:rgba(0, 0, 0, 0.9)!important;
   font-weight: bolder;
   text-decoration: none!important;
