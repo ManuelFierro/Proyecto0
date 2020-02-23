@@ -79,3 +79,9 @@ box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) !important;
   font-weight: bolder;
   text-decoration: none!important;
   }
+
+  .negro{
+    color:rgba(0, 0, 0, 0.9)!important;
+    font-weight: bolder;
+    font-size: 25px;
+  }
