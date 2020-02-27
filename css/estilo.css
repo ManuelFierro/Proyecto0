@@ -2,6 +2,11 @@ body{
   background-color: rgb(255,250,240)!important;
 }
 
+table{
+  color: rgb(150,50,50);
+  border-color: rgb(150,50,50);
+}
+
 .jumbotron {
   background-size: cover;
 	color: rgb(255,250,240)!important;
